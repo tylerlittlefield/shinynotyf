@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/tyluRp/shinynotyf.svg?branch=master)](https://travis-ci.org/tyluRp/shinynotyf)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/tyluRp/shinynotyf?branch=master&svg=true)](https://ci.appveyor.com/project/tyluRp/shinynotyf)
 <!-- badges: end -->
 
 The goal of shinynotyf is to wrap
@@ -48,4 +52,4 @@ shinyApp(ui, server)
 ## Acknowledgements
 
   - [Carlos Roso](https://github.com/caroso1222), the creator of
-    [notyf](https://github.com/caroso1222/notyf)
+    [Notyf](https://github.com/caroso1222/notyf)

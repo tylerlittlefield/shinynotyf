@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # shinynotyf
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/tyluRp/shinynotyf.svg?branch=master)](https://travis-ci.org/tyluRp/shinynotyf)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tyluRp/shinynotyf?branch=master&svg=true)](https://ci.appveyor.com/project/tyluRp/shinynotyf)
 <!-- badges: end -->
 
 The goal of shinynotyf is to wrap [Notyf](https://github.com/caroso1222/notyf) in R to provide notifications in shiny.
