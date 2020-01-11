@@ -15,6 +15,8 @@ The goal of shinynotyf is to wrap
 [Notyf](https://github.com/caroso1222/notyf) in R to provide
 notifications in shiny.
 
+<img src="inst/extdata/notyf3.gif" width="100%" />
+
 ## Installation
 
 Install the development version from GitHub with:

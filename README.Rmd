@@ -22,6 +22,11 @@ knitr::opts_chunk$set(
 
 The goal of shinynotyf is to wrap [Notyf](https://github.com/caroso1222/notyf) in R to provide notifications in shiny.
 
+```{r, echo=FALSE}
+knitr::include_graphics("inst/extdata/notyf.gif")
+```
+
+
 ## Installation
 
 Install the development version from GitHub with:
