@@ -1,0 +1,11 @@
+Package: shinynotyf
+Title: Shiny Notifications using Notyf
+Version: 0.0.0.9000
+Authors@R: c(person("Tyler","Littlefield",email="tylurp1@gmail.com",role=c("aut","cre"),comment="Creator of Shiny Wrapper"),person("Carlos","Roso",role=c("ctb","cph"),comment="Author of included JS code"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny
+RoxygenNote: 6.1.1
