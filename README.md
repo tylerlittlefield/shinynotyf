@@ -21,7 +21,7 @@ Install the development version from GitHub with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tylurp/vov")
+devtools::install_github("tylurp/shinynotyf")
 ```
 
 ## Usage
