@@ -27,3 +27,23 @@ message, icon, duration, color, and ripple effect can all be modified. There
 is an additional parameter \emph{type} that can be used as a shortcut to
 display a custom, success, or error notification.
 }
+\examples{
+if (interactive()) {
+  library(shiny)
+  library(shinynotyf)
+
+  shinyApp(
+    ui = fluidPage(
+      # Set up shinynotyf
+      use_shinynotyf(),
+      actionButton("btn", "Click me")
+    ),
+    server = function(input, output) {
+      observeEvent(input$btn, {
+        # Show a simple notification
+        shinynotyf(message = "You did it!", type = "success")
+      })
+    }
+  )
+}
+}

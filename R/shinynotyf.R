@@ -12,6 +12,25 @@
 #' @param color Backgroun color of the notification.
 #' @param ripple Enables ripple animation, defaults to FALSE.
 #' @param icon Material icon to be used, defaults to 'face'.
+#' @examples
+#' if (interactive()) {
+#'   library(shiny)
+#'   library(shinynotyf)
+#'
+#'   shinyApp(
+#'     ui = fluidPage(
+#'       # Set up shinynotyf
+#'       use_shinynotyf(),
+#'       actionButton("btn", "Click me")
+#'     ),
+#'     server = function(input, output) {
+#'       observeEvent(input$btn, {
+#'         # Show a simple notification
+#'         shinynotyf(message = "You did it!", type = "success")
+#'       })
+#'     }
+#'   )
+#' }
 #' @export
 shinynotyf <- function(message, type = "custom", duration = NULL,
                        color = "#0a84ff", ripple = FALSE, icon = "face") {
