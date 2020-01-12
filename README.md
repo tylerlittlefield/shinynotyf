@@ -13,7 +13,8 @@ status](https://ci.appveyor.com/api/projects/status/github/tyluRp/shinynotyf?bra
 
 The goal of shinynotyf is to wrap
 [Notyf](https://github.com/caroso1222/notyf) in R to provide
-notifications in shiny.
+notifications in shiny, you can demo the package
+[here](https://tylerlittlefield.com/shiny/tyler/shinynotyf-demo/).
 
 <img src="inst/extdata/notyf.gif" width="100%" />
 

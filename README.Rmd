@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tyluRp/shinynotyf?branch=master&svg=true)](https://ci.appveyor.com/project/tyluRp/shinynotyf)
 <!-- badges: end -->
 
-The goal of shinynotyf is to wrap [Notyf](https://github.com/caroso1222/notyf) in R to provide notifications in shiny.
+The goal of shinynotyf is to wrap [Notyf](https://github.com/caroso1222/notyf) in R to provide notifications in shiny, you can demo the package [here](https://tylerlittlefield.com/shiny/tyler/shinynotyf-demo/).
 
 ```{r, echo=FALSE}
 knitr::include_graphics("inst/extdata/notyf.gif")
