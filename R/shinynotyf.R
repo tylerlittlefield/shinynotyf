@@ -88,3 +88,9 @@ use_shinynotyf <- function() {
   )
 }
 
+#' Material Icon Names.
+#'
+#' A listing containing the names of many (if not all) material icon names.
+#'
+#' @format A list with 932 elements.
+"icons"
