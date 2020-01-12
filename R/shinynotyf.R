@@ -15,6 +15,10 @@
 #' @export
 shinynotyf <- function(message, type = "custom", duration = NULL,
                        color = "#0a84ff", ripple = FALSE, icon = "face") {
+  handle_type(type)
+  handle_duration(duration)
+  handle_ripple(ripple)
+
   session <- get_session()
   session$sendCustomMessage(
     'shinynotyf',
